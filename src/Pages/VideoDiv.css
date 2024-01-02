@@ -1,0 +1,25 @@
+.mn{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+  
+  
+  }
+  .mn1{
+    width: 430px;
+    height: 250px;
+    background-color: #161616;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin-block-start: 50px;
+    margin-inline-start: 20px;
+  
+  
+  }
+  .mn2{
+    width: 430px;
+    height: 200px;
+    border-radius: 10px;
+  
+  }

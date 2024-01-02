@@ -1,0 +1,34 @@
+@tailwind components;
+
+
+@layer components {
+    .sidebar {
+        transition: all .4s ease-in-out;
+        /* Your component-specific styles here */
+    }
+}
+
+.w-32 {
+    width: 40px;
+    margin-right: 500px;
+}
+
+.min-h-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3.35rem;
+   background-color: #140D19;
+
+    z-index: 1000;
+}
+
+.sidebar {
+    position: fixed;
+
+}
+
+.w-10 {
+    margin-top: -1px;
+}

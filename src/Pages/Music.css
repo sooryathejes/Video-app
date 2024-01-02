@@ -1,0 +1,13 @@
+
+.msc1{
+    margin-inline-start: 100px;
+    justify-content: center;
+}
+@media screen and (max-width: 500px) {
+
+    .msc {
+        display: flex;
+        flex-direction: column;
+        margin-left: -70px;
+    }
+}

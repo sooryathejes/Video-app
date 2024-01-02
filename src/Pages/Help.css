@@ -1,0 +1,52 @@
+.help {
+    background-image: url(https://i.pinimg.com/564x/e8/cc/d4/e8ccd4286f3d0822fbd403354948330b.jpg);
+    margin: 10px;
+    width: 450px;
+    height: 550px;
+}
+
+.help1 {
+    background-image: url(https://i.pinimg.com/564x/e8/cc/d4/e8ccd4286f3d0822fbd403354948330b.jpg);
+    margin: 10px;
+    width: 450px;
+    height: 550px;
+}
+
+.help2 {
+    background-image: url(https://i.pinimg.com/564x/e8/cc/d4/e8ccd4286f3d0822fbd403354948330b.jpg);
+    margin: 10px;
+    width: 450px;
+    height: 550px;
+}
+
+.lorem {
+    text-align: justify;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .hlp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lorem {
+        font-size: 13px;
+    }
+
+    .help {
+        width: 300px;
+        height: 250px;
+    }
+    .help1 {
+        width: 300px;
+        height: 250px;
+    }
+    .help2 {
+        width: 300px;
+        height: 250px;
+    }
+    .mt-4{
+        margin-left: 80px;
+    }
+}

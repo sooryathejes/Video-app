@@ -1,0 +1,22 @@
+.add{
+    background-color: #0A192F;
+    border-radius: 30px;
+}
+.file{
+    color: white;
+}
+.brdr{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+}
+.dm{
+    color: #0A192F;
+}
+/* @media screen and (max-width: 500px) {
+    .brdr{
+        border: 5px solid white;
+        border-radius: 30px;
+        width: %;
+    }
+} */

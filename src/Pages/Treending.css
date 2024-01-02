@@ -1,0 +1,49 @@
+.one {
+    background-color: black;
+    margin-left: -10px;
+}
+
+.ani{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+    font-weight: 900;
+}
+.ani1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Passion One', sans-serif;
+    font-weight: 900;
+
+}
+.ani2{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Passion One', sans-serif;
+    font-weight: 900;
+}
+@media screen and (max-width: 500px) {
+    .ani{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Passion One', sans-serif;
+        font-weight: 900;
+    }
+    .ani1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -30px;
+        font-family: 'Passion One', sans-serif;
+        font-weight: 900;
+    
+    }
+    .ani2{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -20px;
+        font-family: 'Passion One', sans-serif;
+        font-weight: 900;
+    }
+}

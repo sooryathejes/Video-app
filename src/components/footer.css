@@ -1,0 +1,16 @@
+/* Example CSS to position footer at the bottom */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Example CSS to limit content height */
+  .content {
+    max-height: calc(100vh - 80px); /* Adjust the value to fit your layout */
+    overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
+  }
+  

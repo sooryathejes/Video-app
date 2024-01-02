@@ -1,0 +1,45 @@
+.bg-gray-200{
+    height: 100px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.lngs{
+    background-image: url(https://img.freepik.com/free-vector/blue-wave-background_53876-94212.jpg?w=1060&t=st=1700463789~exp=1700464389~hmac=41dd1920aab9f8accca4b2f327b7370a8fdf2a455f714d74fec49fdc140ac4a0);
+}
+.lngs1{
+    background-image: url(https://img.freepik.com/free-vector/colorful-marble-paint-background_52683-35337.jpg?w=1060&t=st=1700464562~exp=1700465162~hmac=e5360df10870165b0454e5ab76e91480629e13cb13b47dbd0f5bb88662d4ca6f);
+}
+.lngs2{
+    background-image: url(https://img.freepik.com/free-vector/watercolor-abstract-background_23-2149104323.jpg?w=740&t=st=1700464883~exp=1700465483~hmac=b413116c07dccad379152b69f735e659e54aed06fb73fb2e27cc02f8f0937795);
+}
+.lngs3{
+    background-image: url(https://img.freepik.com/free-vector/world-sexual-health-day-concept_23-2148623789.jpg?t=st=1700465088~exp=1700465688~hmac=0631a4f1c453feff6ac1ceeab1d4c1b8325440826d4f27a0a545a2a337cb60c9);
+}
+.lngs4{
+    background-image: url(https://img.freepik.com/free-vector/creative-pattern-music-youtube-channel-art_23-2148916656.jpg?w=1380&t=st=1700465155~exp=1700465755~hmac=7648080c753ef19019a372d62249884671c02d851e8cd39cb6c43c6778b1d42b);
+}
+.lngs5{
+    background-image: url(https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149001605.jpg?w=1060&t=st=1700464019~exp=1700464619~hmac=35cf20592391461a079c45e35856d11d118bc22c407d7951007a5690760f185f);
+}
+.lngs6{
+    background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=1060&t=st=1700464127~exp=1700464727~hmac=9d064f6ec6929f1461cd8d79e8d713958b0849b40a29b40bc79cd3d04ea18f74);
+}
+.lngs7{
+    background-image: url(https://img.freepik.com/free-vector/summer-sale-yellow-red-background-professional-banner-multipurpose-design-free-vector_1340-20129.jpg?w=1380&t=st=1700465095~exp=1700465695~hmac=409f0b0b65e80ec0c43beb6332ac61d1048ad7d351c1bdd8b0abee555b515727);
+}
+.lngs8{
+    background-image: url(https://img.freepik.com/free-vector/bright-geometric-soft-blue-banner-design-vector_1055-10552.jpg?w=1380&t=st=1700464310~exp=1700464910~hmac=bc69637a11ad3acd899f137387736b097231b956e325cb7ec15c23bbb4990628);
+}
+.lngs9{
+    background-image: url(https://img.freepik.com/free-vector/painted-background-abstract-style_23-2148493870.jpg?w=1060&t=st=1700464529~exp=1700465129~hmac=6c5f03258eda03a45ba3f8b4e6c5ef5764fd57a90c3126a96865984fb2423f15);
+}
+@media screen and (max-width: 500px) {
+    .bg-gray-200{
+        height: 50px;
+        width: 150px;
+        margin-top: 50px;
+        margin-right: 500px;
+        margin-left: -30px;
+    }
+}

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;700&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,900;1,900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #161616;
+  font-family: 'agency fb';
+}
+.lnd{
+  height: 800px;
+}
+
+.stripes {
+  width: 100%;
+}
+
+.s-one {
+  position: absolute;
+  width: .5px;
+  height: 800px;
+  background: #555555;
+  left: 8%;
+}
+
+.s-two {
+  position: absolute;
+  width: .5px;
+  height: 800px;
+  background: #555555;
+  left: 50%;
+}
+
+.s-three {
+  position: absolute;
+  width: .5px;
+  height: 800px;
+  background: #555555;
+  left: 96%;
+}
+
+.bg-text {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  opacity: .5;
+}
+
+.bg-text h1 {
+  font-size: 280px;
+  font-family: 'Vina Sans', sans-serif;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 20px #f0eaea;
+  text-transform: uppercase;
+}
+
+.pstm img {}
+
+.pstm {
+  width: 1842px;
+  position: absolute;
+  z-index: 1;
+}
+.pstm1{
+  height: 800px;
+}
+
+.blocks {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 140px;
+  color: #fff;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.block-1,
+.block-4 {
+  color: #bb0000;
+}
+.shrt{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.shrt1{
+  width: 400px;
+  height: 700px;
+  margin-right: 10px;
+  background-color: #555555;
+  margin-inline-start: 30px;
+  border-radius: 30px;
+}
+.shrt2{
+  width: 400px;
+  height: 700px;
+  border-radius: 30px;
+
+}
+
+h10{
+  font-family: 'Dhurjati', sans-serif;
+  font-weight: 900;
+  margin-top: 00px;
+}
+
+.vdap
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #fcf9fc 0%,
+    #0a0a0a 29%,
+    #514d4e 67%,
+    #0f0f0e 100%
+  );
+  background-size: auto auto;
+  stroke-width: 10px;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+      font-weight: 900;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+ 
+/* --------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 500px) {
+  .bg-text {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    opacity: .5;
+  }
+  .bg-text h1 {
+    font-size: 50px;
+    font-family: 'Vina Sans', sans-serif;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 3px #f0eaea;
+    text-transform: uppercase;
+  }   
+  .pstm {
+    width: 340px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+  }  
+  .pstm1{
+    height: 300px;
+  }
+
+  
+  .block-1{
+    font-size: 30px;
+    visibility: hidden;
+
+
+  } 
+  .block-2{
+    font-size: 30px;
+
+    visibility: hidden;
+
+  }
+  .block-3{
+    font-size: 30px;
+    visibility: hidden;
+
+  }
+  .block-4{
+    font-size: 30px;
+    visibility: hidden;
+
+  }
+  .s-one {
+    position: absolute;
+    width: .5px;
+    height: 300px;
+    background: #555555;
+    left: 8%;
+  }
+  
+  .s-two {
+    position: absolute;
+    width: .5px;
+    height: 300px;
+    background: #555555;
+    left: 50%;
+  }
+  
+  .s-three {
+    position: absolute;
+    width: .5px;
+    height: 300px;
+    background: #555555;
+    left: 96%;
+  }
+  .shrt1{
+    width: 50%;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #555555;
+    margin-inline-start: 30px;
+    border-radius: 10px;
+  }
+  .shrt2{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+  
+  }
+  .mn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mn1 {
+    margin-bottom: 30px;
+    margin-left: 1px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 250px;
+    width: 320px;
+
+
+ 
+  }
+
+  .mn2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    height: 200px;
+
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .ms-5 {
+    margin-left: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .lnd{
+    height: 300px;
+  }
+  
+
+
+}

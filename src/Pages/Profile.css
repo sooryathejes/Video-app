@@ -1,0 +1,52 @@
+
+.prf{
+    background-color: #23A67F;
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+    margin-top: 100px;
+
+
+}
+.prf1{
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+    margin-top: 100px;
+
+
+}
+.prf2{
+    background-color: #fcfdfc;
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.pro{
+    background-color: #FFF1DC;
+    height: 700px;
+    margin-left: -12px;
+   
+}
+.prf1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .prf1 {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .prf1 .scroll-wrapper {
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  @media screen and (max-width: 500px) {
+    .pro{
+      display: flex;
+      flex-direction: column;
+    }
+  }

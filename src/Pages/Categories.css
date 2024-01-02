@@ -1,0 +1,35 @@
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+  } 
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+  }
+  .ctr{
+    width: 540px;
+    height: 150px;
+    border: 3px solid white;
+  }
+  @media screen and (max-width: 500px) {
+    .ctr{
+      width: 540px;
+      height: 100px;
+      border: 3px solid white;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+  }
